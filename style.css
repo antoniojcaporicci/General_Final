@@ -1,0 +1,38 @@
+*{
+  font-family: "Oswald";
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*#reservation_container{
+  border: 2px solid black;
+  border-radius: 10px;
+}*/
+
+
+.col-sm-6{
+  border: 2px;
+  border-color: black;
+}
+
+#review{
+  font-size: 20px;
+}
+
+#review_container{
+  text-align: right;
+}
+
+#background{
+  background-color: #fe8277;
+}
+
+#monks_pic{
+  border-radius: 10px;
+}

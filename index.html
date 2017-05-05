@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <div class="container-fluid" id="background">
+    <body>
+      <div class="container">
+        <header>
+          <h1>Monk's Restaurant</h1>
+          <h3>"The Coffee Shop"</h3>
+        </header>
+      </div>
+      <div class="container" id="monks_pic">
+        <img id="monks_pic"src="https://c1.staticflickr.com/8/7150/6684058843_ba1a498c11_b.jpg" alt="">
+      </div>
+      <div class="container-fluid" id="reservation_container">
+        <h1>Reservations</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="name" placeholder="Enter name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="day">Day:</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter day">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-6">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Name</th>
+                      <th>Day</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <h1>Come Dine with Us</h1>
+      </div>
+        <div class="container-fluid restaurant-locator">
+           <div class="row">
+              <div id="map" class="col-md-12" style="height:75vh"></div>
+           </div>
+        </div>
+    <div class="container">
+      <h1>Customer Reviews</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg" alt="">
+        </div>
+        <div class="col-sm-6" id="review_container">
+          <p id="review">“Big lettuce, big carrots, tomatoes like volleyballs.”
+  — Jerry Seinfeld, on The BIG Salad</p>
+            <hr>
+          <p id="review">"Nougat? Please. I think I’ve reached the point in my life where I can tell between nougat and cookie. So, let’s not just say things that are obvious fabrications." -George Costanza on the Twix!</p>
+            <hr>
+          <p id="review">"Boy, these pretzels are makin' me thirsty." –Kramer on the pretzels</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs" async defer></script>
+    </body>
+  </div>
+</html>
