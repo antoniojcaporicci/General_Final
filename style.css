@@ -4,21 +4,16 @@
 
 header{
   text-align: center;
+  margin-top: 60px;
 }
 
 h1 {
   text-align: center;
 }
 
-/*#reservation_container{
+#reservation_container{
   border: 2px solid black;
   border-radius: 10px;
-}*/
-
-
-.col-sm-6{
-  border: 2px;
-  border-color: black;
 }
 
 #review{
@@ -34,5 +29,19 @@ h1 {
 }
 
 #monks_pic{
-  border-radius: 10px;
+  border-radius: 0px;
+
+}
+
+
+#reservation_container {
+  height: 40vh;
+  margin-top: 30px;
+  position: relative;
+}
+
+.reservation-form {
+  position: absolute;
+  top: 75%;
+  transform: translateY(100%);
 }
